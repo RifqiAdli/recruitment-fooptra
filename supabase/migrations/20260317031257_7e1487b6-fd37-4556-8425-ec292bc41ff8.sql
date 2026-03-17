@@ -1,0 +1,1 @@
+ALTER TABLE public.job_postings ADD COLUMN IF NOT EXISTS banner_url text; COMMENT ON COLUMN public.job_postings.banner_url IS 'Optional public banner image URL for job posting hero and admin preview.';
